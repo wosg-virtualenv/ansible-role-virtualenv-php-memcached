@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  roles:
+    - virtualenv.memcached
+    - virtualenv.php
+    - ansible-role-php-memcached
